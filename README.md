@@ -1,5 +1,4 @@
-# ForestCheck
-
+# Sakshi | Carbon Credit Analyzer
 An open verification platform for forest and tree-planting carbon credit projects.
 Given a set of satellite pixel embeddings for a registered project polygon, ForestCheck
 classifies each pixel as tree or non-tree, estimates a causal counterfactual baseline,

@@ -11,7 +11,7 @@ export default function Home() {
         Open Verification Platform · v0.1
       </div>
       <h1 className="text-3xl font-semibold tracking-tight text-zinc-900 mb-3">
-        Carbon Credit Integrity Check
+        Sakshi — Carbon Credit Analyzer
       </h1>
       <p className="text-zinc-500 text-sm leading-relaxed max-w-xl mb-8">
         Upload AlphaEarth pixel embeddings for a registered forest carbon project.

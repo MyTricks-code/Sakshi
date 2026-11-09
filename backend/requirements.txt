@@ -3,4 +3,5 @@ uvicorn[standard]
 pandas
 numpy
 xgboost
+scikit-learn
 python-multipart

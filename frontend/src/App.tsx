@@ -11,7 +11,7 @@ function Layout({ children }: { children: React.ReactNode }) {
     <div className="min-h-screen bg-white">
       <header className="border-b border-zinc-200 px-6 py-3 flex items-center justify-between">
         <Link to="/" className="font-mono text-sm font-medium text-zinc-900 no-underline">
-          ForestCheck
+          Sakshi
         </Link>
         <nav className="flex items-center gap-6">
           {[
@@ -36,7 +36,7 @@ function Layout({ children }: { children: React.ReactNode }) {
       <main>{children}</main>
       <Separator />
       <footer className="px-6 py-4 font-mono text-xs text-zinc-400">
-        ForestCheck · PCCOE IGC Hackathon 2026 · AlphaEarth + XGBoost + Causal Counterfactuals
+        Sakshi · Carbon Credit Analyzer · PCCOE IGC Hackathon 2026
       </footer>
     </div>
   )

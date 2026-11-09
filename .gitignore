@@ -38,10 +38,12 @@ desktop.ini
 *.swp
 *.swo
 
-# Env files
+# Env files (keep .env.example files — they're templates, not secrets)
 .env
 .env.local
 .env.*.local
+!.env.example
+!**/.env.example
 
 # Logs
 *.log

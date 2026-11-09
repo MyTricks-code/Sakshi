@@ -9,9 +9,10 @@ from xgboost import XGBClassifier
 
 app = FastAPI(title="ForestCheck API")
 
+FRONTEND_URL = os.getenv("FRONTEND_URL", "*")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[FRONTEND_URL],
     allow_methods=["*"],
     allow_headers=["*"],
 )

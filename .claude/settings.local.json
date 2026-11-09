@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "Bash(/c/Users/Vishal/AppData/Local/Microsoft/WindowsApps/python3 *)",
+      "Read(//c/Users/Vishal/AppData/Local/Programs/**)",
+      "Bash(ls /c/Python*)",
+      "Read(//c/Users/Vishal/miniconda3/**)",
+      "Read(//c/Users/Vishal/**)",
+      "Bash(/d/anaconda/python.exe *)"
+    ]
+  }
+}

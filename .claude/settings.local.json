@@ -7,7 +7,20 @@
       "Bash(ls /c/Python*)",
       "Read(//c/Users/Vishal/miniconda3/**)",
       "Read(//c/Users/Vishal/**)",
-      "Bash(/d/anaconda/python.exe *)"
+      "Bash(/d/anaconda/python.exe *)",
+      "WebSearch",
+      "Bash(npm --version)",
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npx tailwindcss *)",
+      "Bash(npx --yes tailwindcss init -p)",
+      "Bash(npx shadcn@latest init --yes --defaults)",
+      "Bash(npx shadcn@4.22.0 init --yes --defaults)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:8000/health)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s http://localhost:8000/demo)",
+      "PowerShell(Get-NetTCPConnection *)"
     ]
   }
 }

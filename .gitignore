@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.next/
+
+# Large optional model formats (use Git LFS if needed)
+*.h5
+*.pt
+*.onnx
+
+# Keep XGBoost weights and metadata — required for backend startup
+# *.ubj and *.joblib are small enough (~1MB) to commit directly
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Claude Code
+.claude/settings.local.json
